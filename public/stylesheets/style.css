@@ -1,0 +1,82 @@
+body {
+  font: 14px "Lucida Grande", Georgia, Arial, sans-serif;
+  min-width: 1000px;
+}
+
+.container-fluid{
+  background-color: white;
+  text-align: center;
+}
+
+.white{
+  background-color: white;
+  align-items: center;
+  padding-left: 10%;
+  padding-right:10%;
+}
+
+.light{
+  background-color: #D3DFE3;
+  padding: 2%;
+}
+
+ .flexbox {
+ display:flex;
+ justify-content:center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.navbar{
+    display: flex;
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 0px !important;
+}
+.col-xs-3{
+    display: flex;
+    padding: 10px
+}
+
+.img{
+    padding: 5px;
+}
+
+.frontPg{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("/images/hero/worker-wood.jpeg");
+    background-size: 100%;
+    height: 600px;
+}
+
+.hero{
+    height: 300px;
+    border-top: 5px solid #e6e6e6;
+    border-bottom: 5px solid white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*hero-images*/
+.about{background-color:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) );
+    background-image: url('/images/hero/hammer.jpg');}
+.projects{background-image: url('/images/hero/hammer2.jpeg');}
+.contact{background-image: url('/images/hero/light.jpeg');}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#link {
+    color: #8FAAB3;
+}
+
+.footer{
+    border-top:5px solid #e6e6e6;
+    background-color: #8FAAB3;
+    color: white;
+}
